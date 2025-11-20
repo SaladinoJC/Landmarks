@@ -1,0 +1,33 @@
+{
+  "id": "96401b2b-f0d0-464d-ae14-ec644f2d6707",
+  "name": "asdasddddddddddd",
+  "author": "Robertiti",
+  "authorId": "e28b4488-d2c7-4297-a884-5b8f34c04e47",
+  "landmarks": [
+    {
+      "id": "d825853f-d93b-4eba-8617-9d725e3dee9b",
+      "name": "Landmark 1",
+      "description": "",
+      "lat": -11.729696947283495,
+      "lng": -51.58365034895406,
+      "order": 0
+    },
+    {
+      "id": "939a59b2-b574-4676-b07a-f0454a93220d",
+      "name": "Landmark 2",
+      "description": "",
+      "lat": -11.730211714434338,
+      "lng": -51.584521256066644,
+      "order": 1
+    },
+    {
+      "id": "460c7e54-8c21-428a-97a5-95958513f168",
+      "name": "Landmark 3",
+      "description": "",
+      "lat": -11.730453324091963,
+      "lng": -51.58343300128098,
+      "order": 2
+    }
+  ],
+  "createdAt": "2025-11-19T20:46:59.715Z"
+}

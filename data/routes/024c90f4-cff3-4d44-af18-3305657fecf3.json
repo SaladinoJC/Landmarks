@@ -1,0 +1,41 @@
+{
+  "id": "024c90f4-cff3-4d44-af18-3305657fecf3",
+  "name": "roberto",
+  "author": "Robertiti",
+  "authorId": "e28b4488-d2c7-4297-a884-5b8f34c04e47",
+  "landmarks": [
+    {
+      "id": "5c51e8f0-7c2d-435a-a142-361c26c409a9",
+      "name": "Landmark 1",
+      "description": "",
+      "lat": -27.246815524436826,
+      "lng": -60.73012740134551,
+      "order": 0
+    },
+    {
+      "id": "c0f7f27a-fe62-457c-9b64-77416fb485f1",
+      "name": "Landmark 2",
+      "description": "",
+      "lat": -27.2462198502432,
+      "lng": -60.728766755219816,
+      "order": 1
+    },
+    {
+      "id": "fafedf96-75b5-4195-a358-73b22c4b5855",
+      "name": "Landmark 3",
+      "description": "",
+      "lat": -27.246925692804705,
+      "lng": -60.7280693768362,
+      "order": 2
+    },
+    {
+      "id": "b6770dd1-8b71-499e-8259-93b73e58c97c",
+      "name": "Landmark 4",
+      "description": "",
+      "lat": -27.247450302618482,
+      "lng": -60.72910505693171,
+      "order": 3
+    }
+  ],
+  "createdAt": "2025-11-19T20:30:39.639Z"
+}

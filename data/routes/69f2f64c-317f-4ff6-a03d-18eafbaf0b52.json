@@ -1,0 +1,49 @@
+{
+  "id": "69f2f64c-317f-4ff6-a03d-18eafbaf0b52",
+  "name": "Pruebita",
+  "author": "Robertiti",
+  "authorId": "e28b4488-d2c7-4297-a884-5b8f34c04e47",
+  "landmarks": [
+    {
+      "id": "5c576817-3899-496f-b260-731bd97a98bb",
+      "name": "Landmark 1",
+      "description": "",
+      "lat": -24.078564720896342,
+      "lng": -50.883906429717584,
+      "order": 0
+    },
+    {
+      "id": "918414f3-5d98-48d3-a566-f769394f0598",
+      "name": "Landmark 2",
+      "description": "",
+      "lat": -24.077737506273685,
+      "lng": -50.882495466626644,
+      "order": 1
+    },
+    {
+      "id": "18863476-e47b-42f9-a2a5-f49907ffbcbb",
+      "name": "Landmark 3",
+      "description": "",
+      "lat": -24.078619084717534,
+      "lng": -50.88203955303646,
+      "order": 2
+    },
+    {
+      "id": "c4406266-6402-4c5e-9825-563b14a99094",
+      "name": "Landmark 4",
+      "description": "",
+      "lat": -24.078976612025485,
+      "lng": -50.88319861609322,
+      "order": 3
+    },
+    {
+      "id": "9caecf3f-06d5-4cfc-b8fa-1a51605726fc",
+      "name": "Landmark 5",
+      "description": "",
+      "lat": -24.078388895375255,
+      "lng": -50.882790817983434,
+      "order": 4
+    }
+  ],
+  "createdAt": "2025-11-19T20:36:56.953Z"
+}
