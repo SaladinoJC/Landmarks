@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 
 interface Landmark {
   id: string
@@ -26,21 +26,23 @@ export default function LandmarksList({
 }: LandmarksListProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null)
 
+  const sorted = useMemo(() => [...landmarks].sort((a, b) => a.order - b.order), [landmarks])
+
+  const moveLandmark = (fromIndex: number, toIndex: number) => {
+    if (toIndex < 0 || toIndex >= sorted.length) return
+    const reordered = [...sorted]
+    const [item] = reordered.splice(fromIndex, 1)
+    reordered.splice(toIndex, 0, item)
+    onReorder(reordered)
+  }
+
   const handleMoveUp = (index: number) => {
-    if (index === 0) return
-    const newOrder = [...landmarks]
-    ;[newOrder[index - 1], newOrder[index]] = [newOrder[index], newOrder[index - 1]]
-    onReorder(newOrder)
+    moveLandmark(index, index - 1)
   }
 
   const handleMoveDown = (index: number) => {
-    if (index === landmarks.length - 1) return
-    const newOrder = [...landmarks]
-    ;[newOrder[index], newOrder[index + 1]] = [newOrder[index + 1], newOrder[index]]
-    onReorder(newOrder)
+    moveLandmark(index, index + 1)
   }
-
-  const sorted = [...landmarks].sort((a, b) => a.order - b.order)
 
   return (
     <div className="p-4">

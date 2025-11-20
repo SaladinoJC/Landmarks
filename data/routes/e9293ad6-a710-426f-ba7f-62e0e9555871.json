@@ -1,0 +1,49 @@
+{
+  "id": "e9293ad6-a710-426f-ba7f-62e0e9555871",
+  "name": "pitossss",
+  "author": "siudadanix",
+  "authorId": "e1027531-9179-4162-8f16-b54b5f853629",
+  "landmarks": [
+    {
+      "id": "5f6bc9c4-1ec5-44cc-af74-b20c609ac50f",
+      "name": "Landmark 1",
+      "description": "",
+      "lat": -14.179186142354169,
+      "lng": -46.66992187500001,
+      "order": 0
+    },
+    {
+      "id": "ab419604-caaa-4f46-ab50-dc090b5de436",
+      "name": "Landmark 2",
+      "description": "",
+      "lat": -13.410994034321702,
+      "lng": -44.31884765625001,
+      "order": 1
+    },
+    {
+      "id": "acb22a27-858b-4c32-9b35-f2c0ac49fb96",
+      "name": "Landmark 3",
+      "description": "",
+      "lat": -14.466596475463248,
+      "lng": -45.03845214843751,
+      "order": 2
+    },
+    {
+      "id": "7170c45e-3f3a-4efc-aea0-440c695ad752",
+      "name": "Landmark 4",
+      "description": "",
+      "lat": -14.567634332576946,
+      "lng": -44.4287109375,
+      "order": 3
+    },
+    {
+      "id": "c0c711f2-4072-4985-a449-3678e48229ea",
+      "name": "Landmark 5",
+      "description": "",
+      "lat": -14.758947319935578,
+      "lng": -46.10961914062501,
+      "order": 4
+    }
+  ],
+  "createdAt": "2025-11-20T15:15:50.834Z"
+}
